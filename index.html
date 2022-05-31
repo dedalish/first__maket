@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imaginary Ones</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="http://fonts.cdnfonts.com/css/gotham-pro" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/isidora-soft-alt" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="intro">
+            <div class="wrapper">
+                <p class="main__intro">LIMITED MINT DATE</p>
+                <time class="time_text">April 18 - 2am EST</time>
+                <p class="main__description">PRE-SALE IS <br>NOW LIVE</p>
+                <div class="wrapper__flex">
+                    <div class="wrapper__price__nft">
+                        <div class="wrapper__logo__nft">
+                        <p class="box__nft"></p>
+                    </div>
+                    <div class="wrapper__desc__nft">
+                        <p class="price__description">Price Per NFT</p>
+                        <p class="price__per-each">0,05 ETH EACH</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="wrap__count">
+                    <div class="wrapper__button__count">
+                        <button onclick="DecrementClick()" class="count__minus count__button"></button> 
+                        <p class="count" id="count__id">0</p>    
+                        <button onclick="IncrementClick()" class="count__plus count__button"></button>
+                    </div>
+                     <div class="max-mint">
+                        <button onclick="setMax()" class="set-max__button">SET MAX</button>
+                    </div>
+                </div>
+                <div class="wrap__count__second">
+                    <div class="wrapper__button__total">
+                        <p class="total__text">Total </p>
+                        <p class="ETH"><span id="total-eth">1,15</span> ETH</p>
+                    </div>
+
+                     <div class="max-mint">
+                        <button onclick="mint()" class="set-max__button set__mint">MINT</button>
+                        <br>
+                        <p class="mint-count"><span id="js-mint">463</span>/500</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="/js/main.js"></script>
+</body>
+</html>
