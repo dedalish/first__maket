@@ -39,5 +39,6 @@ function mint() {
         console.log(price * counterVal);
         updateMint(nft_count);
         updateTotal(total);
+        max = Math.round(total / price);
     }
 }
