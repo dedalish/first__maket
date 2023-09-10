@@ -16,7 +16,7 @@ function DecrementClick() {
 }
 
 function setMax() {
-    counterVal = max;
+    counterVal = Math.round(total / price);;
     updateDisplay(counterVal);
 }
 
@@ -39,6 +39,5 @@ function mint() {
         console.log(price * counterVal);
         updateMint(nft_count);
         updateTotal(total);
-        max = Math.round(total / price);
     }
 }
